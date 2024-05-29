@@ -1,0 +1,32 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# ZRE200GE
+#
+DEF ZRE200GE U 0 40 N N 1 L N
+F0 "U" -401 95 50 H V L BNN
+F1 "ZRE200GE" -400 0 50 H V L BNN
+F2 "TO5" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "TO-5-3 Zilog" 0 0 50 H I L BNN "Package"
+F5 "In Stock" 0 0 50 H I L BNN "Availability"
+F6 "None" 0 0 50 H I L BNN "Price"
+F7 "ZRE200GE" 0 0 50 H I L BNN "MP"
+F8 "Sensor PIR (Passive Infrared) Motion Sensing TO-5-3 Lens Top Metal Can" 0 0 50 H I L BNN "Description"
+F9 "Zilog" 0 0 50 H I L BNN "MF"
+DRAW
+P 2 0 0 10 0 -150 0 150 N
+P 2 0 0 10 -100 -75 -50 -100 N
+P 2 0 0 10 -50 -100 -100 -125 N
+T 0 100 25 60 0 0 0 D Normal 0 L B
+T 0 100 -175 60 0 0 0 S Normal 0 L B
+T 0 -175 -175 60 0 0 0 G Normal 0 L B
+X ~ 3 -200 -100 200 R 40 40 0 0 P 
+X ~ 1 200 100 200 L 40 40 0 0 P 
+X ~ 2 200 -100 200 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

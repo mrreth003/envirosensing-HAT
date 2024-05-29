@@ -1,0 +1,1296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\smout\Downloads\sensing - Copy.kicad_sch</source>
+    <date>2022/03/11 18:31:39</date>
+    <tool>Eeschema (6.0.2)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>SENSOR SUBMODULE SCHEMATIC   Author: Moutloatsi Setlogelo</title>
+        <company/>
+        <rev>v1.02</rev>
+        <date>2022-02-11</date>
+        <source>sensing - Copy.kicad_sch</source>
+        <comment number="1" value="PA5- GPIO DIGITAL OUTPUT OF MICRO-CONTROLLER\nPA6- GPIO DIGITAL INPUT OF MICRONTROLLER\nPA7- GPIO DIGITAL OUTPUT OF MICRO-CONTROLLER\nPC0- ADC INPUT OF MICRO-CONTROLLER\nPF7- SDA LINK OF MICRO-CONTROLLER\nPF6- SCL LINK OF MICRO-CONTROLLER\n\n\n\n"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BZ31">
+      <value>Buzzer</value>
+      <footprint>Buzzer_Beeper:Buzzer_Murata_PKMCS0909E</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1912111437_Murata-Electronics-PKM13EPYH4002-B0_C128650.pdf</datasheet>
+      <fields>
+        <field name="Alt_LCSC">C91080</field>
+        <field name="LCSC">C128650</field>
+        <field name="Price">0.3955</field>
+      </fields>
+      <libsource lib="Device" part="Buzzer" description="Buzzer, polarized"/>
+      <property name="Alt_LCSC" value="C91080"/>
+      <property name="LCSC" value="C128650"/>
+      <property name="Price" value="0.3955"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensing - Copy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be871ee2-3041-4c87-8c4c-dd3f77d087b8</tstamps>
+    </comp>
+    <comp ref="C31">
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811151138_Samsung-Electro-Mechanics-CL10A226MQ8NRNC_C59461.pdf</datasheet>
+      <fields>
+        <field name="Alt_LCSC">C1532</field>
+        <field name="LCSC">C59461</field>
+        <field name="Price">0.0098</field>
+      </fields>
+      <libsource lib="pspice" part="CAP" description="Capacitor symbol for simulation only"/>
+      <property name="Alt_LCSC" value="C1532"/>
+      <property name="LCSC" value="C59461"/>
+      <property name="Price" value="0.0098"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensing - Copy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>872fb127-1b7e-415b-bc3d-6cda608c5cb3</tstamps>
+    </comp>
+    <comp ref="C32">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2102081402_FH-Guangdong-Fenghua-Advanced-Tech-0603B103K500NT_C57112.pdf</datasheet>
+      <fields>
+        <field name="Alt_LCSC">C1710</field>
+        <field name="LCSC">C57112</field>
+        <field name="Price">0.0028</field>
+      </fields>
+      <libsource lib="pspice" part="CAP" description="Capacitor symbol for simulation only"/>
+      <property name="LCSC" value="C57112"/>
+      <property name="Price" value="0.0028"/>
+      <property name="Alt_LCSC" value="C1710"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensing - Copy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>65e8f615-8f9d-4374-bd1b-eb102e7f874f</tstamps>
+    </comp>
+    <comp ref="C33">
+      <value>47nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810261614_Samsung-Electro-Mechanics-CL10B473KB8NNNC_C1622.pdf</datasheet>
+      <fields>
+        <field name="Alt_LCSC">C53134</field>
+        <field name="LCSC">C1622</field>
+        <field name="Price">0.0048</field>
+      </fields>
+      <libsource lib="pspice" part="CAP" description="Capacitor symbol for simulation only"/>
+      <property name="LCSC" value="C1622"/>
+      <property name="Price" value="0.0048"/>
+      <property name="Alt_LCSC" value="C53134"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensing - Copy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4a99ee7c-7c9c-48a9-8d70-b077993e5326</tstamps>
+    </comp>
+    <comp ref="C34">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810191215_Samsung-Electro-Mechanics-CL05A106MQ5NUNC_C15525.pdf</datasheet>
+      <fields>
+        <field name="Alt_LCSC">C19702</field>
+        <field name="LCSC">C15525</field>
+        <field name="Price">0.0058</field>
+      </fields>
+      <libsource lib="pspice" part="CAP" description="Capacitor symbol for simulation only"/>
+      <property name="LCSC" value="C15525"/>
+      <property name="Price" value="0.0058"/>
+      <property name="Alt_LCSC" value="C19702"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensing - Copy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>285acdd8-0f6e-4107-9505-54bf55e20493</tstamps>
+    </comp>
+    <comp ref="C35">
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811151138_Samsung-Electro-Mechanics-CL10A226MQ8NRNC_C59461.pdf</datasheet>
+      <fields>
+        <field name="Alt_LCSC">C1532</field>
+        <field name="LCSC">C59461</field>
+        <field name="Price">0.0098</field>
+      </fields>
+      <libsource lib="pspice" part="CAP" description="Capacitor symbol for simulation only"/>
+      <property name="Alt_LCSC" value="C1532"/>
+      <property name="LCSC" value="C59461"/>
+      <property name="Price" value="0.0098"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensing - Copy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>546ec3f7-4df0-47b5-ba1c-f981bd391841</tstamps>
+    </comp>
+    <comp ref="C36">
+      <value>3.3nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810191220_Samsung-Electro-Mechanics-CL21B332KBANNNC-_C53175.pdf</datasheet>
+      <fields>
+        <field name="Alt_LCSC">C53175</field>
+        <field name="LCSC">C1613</field>
+        <field name="Price">0.0067</field>
+      </fields>
+      <libsource lib="pspice" part="CAP" description="Capacitor symbol for simulation only"/>
+      <property name="LCSC" value="C1613"/>
+      <property name="Price" value="0.0067"/>
+      <property name="Alt_LCSC" value="C53175"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensing - Copy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0418be5-7225-4358-847a-a8d87e76b033</tstamps>
+    </comp>
+    <comp ref="C37">
+      <value>47nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810261614_Samsung-Electro-Mechanics-CL10B473KB8NNNC_C1622.pdf</datasheet>
+      <fields>
+        <field name="Alt_LCSC">C53134</field>
+        <field name="LCSC">C1622</field>
+        <field name="Price">0.0048</field>
+      </fields>
+      <libsource lib="pspice" part="CAP" description="Capacitor symbol for simulation only"/>
+      <property name="LCSC" value="C1622"/>
+      <property name="Price" value="0.0048"/>
+      <property name="Alt_LCSC" value="C53134"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensing - Copy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b05f0cf9-f55f-40ee-8998-99ccccbdc3d2</tstamps>
+    </comp>
+    <comp ref="C38">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810261812_Samsung-Electro-Mechanics-CL10A105KB8NNNC_C15849.pdf</datasheet>
+      <fields>
+        <field name="Alt_LCSC">C28323</field>
+        <field name="LCSC">C15849</field>
+        <field name="Price">0.0057</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Alt_LCSC" value="C28323"/>
+      <property name="LCSC" value="C15849"/>
+      <property name="Price" value="0.0057"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensing - Copy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e1c3c20-1e35-47cc-9633-c73e758f8ec4</tstamps>
+    </comp>
+    <comp ref="C39">
+      <value>22nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~https://datasheet.lcsc.com/lcsc/1811141710_FH-Guangdong-Fenghua-Advanced-Tech-0402B223K500NT_C1532.pdf</datasheet>
+      <fields>
+        <field name="Alt_LCSC">C1729</field>
+        <field name="LCSC">C1532</field>
+        <field name="Price">0.0026</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Alt_LCSC" value="C1729"/>
+      <property name="LCSC" value="C1532"/>
+      <property name="Price" value="0.0026"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensing - Copy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e49156bf-966a-40aa-b236-4ebdea6dee33</tstamps>
+    </comp>
+    <comp ref="C40">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~https://datasheet.lcsc.com/lcsc/1810191219_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf</datasheet>
+      <fields>
+        <field name="Alt_LCSC">C49678</field>
+        <field name="LCSC">C1525</field>
+        <field name="Price">0.0011</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Alt_LCSC" value="C49678"/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Price" value="0.0011"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensing - Copy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>94acfa86-c510-4d88-9dbd-c32db4666499</tstamps>
+    </comp>
+    <comp ref="D31">
+      <value>DIODE</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1809281716_ST-Semtech-1N4148_C14538.pdf</datasheet>
+      <fields>
+        <field name="Alt_LCSC">C14516</field>
+        <field name="LCSC">C14538</field>
+        <field name="Price">0.0083</field>
+      </fields>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <property name="LCSC" value="C14538"/>
+      <property name="Price" value="0.0083"/>
+      <property name="Alt_LCSC" value="C14516"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensing - Copy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f92b5bee-bd16-4720-8d99-e133ed40a165</tstamps>
+    </comp>
+    <comp ref="D32">
+      <value>LED</value>
+      <footprint>Diode_SMD:D_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810231112_Hubei-KENTO-Elec-KT-0603R_C2286.pdf</datasheet>
+      <fields>
+        <field name="Alt_LCSC">C2286</field>
+        <field name="LCSC">C84256</field>
+        <field name="Price">0.0139</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Alt_LCSC" value="C2286"/>
+      <property name="LCSC" value="C84256"/>
+      <property name="Price" value="0.0139"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensing - Copy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b994c7c-bc84-43b1-9e2f-d5b6562728d9</tstamps>
+    </comp>
+    <comp ref="D33">
+      <value>LED</value>
+      <footprint>Diode_SMD:D_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810231112_Hubei-KENTO-Elec-KT-0603R_C2286.pdf</datasheet>
+      <fields>
+        <field name="Alt_LCSC">C2286</field>
+        <field name="LCSC">C84256</field>
+        <field name="Price">0.0139</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Alt_LCSC" value="C2286"/>
+      <property name="LCSC" value="C84256"/>
+      <property name="Price" value="0.0139"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensing - Copy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6231758c-71cd-4c75-99cb-824c4d1c8d6b</tstamps>
+    </comp>
+    <comp ref="D34">
+      <value>LED</value>
+      <footprint>Diode_SMD:D_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810231112_Hubei-KENTO-Elec-KT-0603R_C2286.pdf</datasheet>
+      <fields>
+        <field name="Alt_LCSC">C2286</field>
+        <field name="LCSC">C84256</field>
+        <field name="Price">0.0139</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Alt_LCSC" value="C2286"/>
+      <property name="LCSC" value="C84256"/>
+      <property name="Price" value="0.0139"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensing - Copy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>89e0c454-d217-4ce9-9a38-509b1eb5b1e4</tstamps>
+    </comp>
+    <comp ref="Q31">
+      <value>NPN</value>
+      <footprint>Package_TO_SOT_THT:TO-92</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810181650_Foshan-Blue-Rocket-Elec-2N3904_C305395.pdf</datasheet>
+      <fields>
+        <field name="Alt_LCSC">C118538</field>
+        <field name="LCSC">C305395</field>
+        <field name="Price">0.0129</field>
+      </fields>
+      <libsource lib="Device" part="Q_NPN_BCE" description="NPN transistor, base/collector/emitter"/>
+      <property name="LCSC" value="C305395"/>
+      <property name="Price" value="0.0129"/>
+      <property name="Alt_LCSC" value="C118538"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensing - Copy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2e65c8b9-7fba-4d93-b617-46f5c15f2a52</tstamps>
+    </comp>
+    <comp ref="Q32">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_THT:TO-92</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810161817_onsemi-2N7000TA_C107290.pdf</datasheet>
+      <fields>
+        <field name="Alt_LCSC">C9114</field>
+        <field name="LCSC">C107290</field>
+        <field name="Price">0.0427</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="Alt_LCSC" value="C9114"/>
+      <property name="LCSC" value="C107290"/>
+      <property name="Price" value="0.0427"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensing - Copy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>326e533f-f26b-4949-b2af-9df82cea6413</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>13k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2110252030_UNI-ROYAL-Uniroyal-Elec-0603WAF1302T5E_C22797.pdf</datasheet>
+      <fields>
+        <field name="Alt_LCSC">C17455</field>
+        <field name="LCSC">C22797</field>
+        <field name="Price">0.0013</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Alt_LCSC" value="C17455"/>
+      <property name="LCSC" value="C22797"/>
+      <property name="Price" value="0.0013"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensing - Copy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae61f308-2653-46f3-a7aa-7bfdaca00e19</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2110251730_UNI-ROYAL-Uniroyal-Elec-0805W8F1001T5E_C17513.pdf</datasheet>
+      <fields>
+        <field name="Alt_LCSC">C25623</field>
+        <field name="LCSC">C17513</field>
+        <field name="Price">0.0023</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Alt_LCSC" value="C25623"/>
+      <property name="LCSC" value="C17513"/>
+      <property name="Price" value="0.0023"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensing - Copy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36b3276e-4898-422e-a96c-0dc2f71281d0</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>680k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0603WAF6803T5E_C25822.pdf</datasheet>
+      <fields>
+        <field name="Alt_LCSC">C17797</field>
+        <field name="LCSC">C25822</field>
+        <field name="Price">0.0013</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Alt_LCSC" value="C17797"/>
+      <property name="LCSC" value="C25822"/>
+      <property name="Price" value="0.0013"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensing - Copy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5598a0a3-7afa-4689-be20-8f4d2bbb0cd4</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2110251730_UNI-ROYAL-Uniroyal-Elec-0805W8F1001T5E_C17513.pdf</datasheet>
+      <fields>
+        <field name="Alt_LCSC">C25623</field>
+        <field name="LCSC">C17513</field>
+        <field name="Price">0.0023</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Alt_LCSC" value="C25623"/>
+      <property name="LCSC" value="C17513"/>
+      <property name="Price" value="0.0023"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensing - Copy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d35d8579-15a4-4ea9-90fb-9d4a06b8dfe6</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2110251730_UNI-ROYAL-Uniroyal-Elec-0805W8F1001T5E_C17513.pdf</datasheet>
+      <fields>
+        <field name="Alt_LCSC">C25623</field>
+        <field name="LCSC">C17513</field>
+        <field name="Price">0.0023</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Alt_LCSC" value="C25623"/>
+      <property name="LCSC" value="C17513"/>
+      <property name="Price" value="0.0023"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensing - Copy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>76b5c36f-6627-40a3-94c5-0ce1ba25994a</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>220k</value>
+      <footprint>https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF4703TCE_C25790.pdf</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF4703TCE_C25790.pdf</datasheet>
+      <fields>
+        <field name="Alt_LCSC">C17556</field>
+        <field name="LCSC">C22961</field>
+        <field name="Price">0.0014</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Alt_LCSC" value="C17556"/>
+      <property name="LCSC" value="C22961"/>
+      <property name="Price" value="0.0014"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensing - Copy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df12aa23-6350-45b2-b27f-6f5e1d4a9c12</tstamps>
+    </comp>
+    <comp ref="R37">
+      <value>470k</value>
+      <footprint>Resistor_SMD:R_01005_0402Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF4703TCE_C25790.pdf</datasheet>
+      <fields>
+        <field name="Alt_LCSC">C23178</field>
+        <field name="LCSC">C25790</field>
+        <field name="Price">0.0009</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Alt_LCSC" value="C23178"/>
+      <property name="LCSC" value="C25790"/>
+      <property name="Price" value="0.0009"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensing - Copy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>31951a54-3a0a-45f1-8734-8a3976744182</tstamps>
+    </comp>
+    <comp ref="R38">
+      <value>470k</value>
+      <footprint>Resistor_SMD:R_01005_0402Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF4703TCE_C25790.pdf</datasheet>
+      <fields>
+        <field name="Alt_LCSC">C23178</field>
+        <field name="LCSC">C25790</field>
+        <field name="Price">0.0009</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Alt_LCSC" value="C23178"/>
+      <property name="LCSC" value="C25790"/>
+      <property name="Price" value="0.0009"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensing - Copy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e02d6d9a-2419-486a-a04a-98e7204fc61f</tstamps>
+    </comp>
+    <comp ref="R39">
+      <value>220k</value>
+      <footprint>https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF4703TCE_C25790.pdf</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF4703TCE_C25790.pdf</datasheet>
+      <fields>
+        <field name="Alt_LCSC">C17556</field>
+        <field name="LCSC">C22961</field>
+        <field name="Price">0.0014</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Alt_LCSC" value="C17556"/>
+      <property name="LCSC" value="C22961"/>
+      <property name="Price" value="0.0014"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensing - Copy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9e916e8d-ae47-4a69-aa9a-bf1f392290ef</tstamps>
+    </comp>
+    <comp ref="R40">
+      <value>56k</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF5602TCE_C25796.pdf</datasheet>
+      <fields>
+        <field name="Alt_LCSC">C25796</field>
+        <field name="LCSC">C23206</field>
+        <field name="Price">0.0013</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Alt_LCSC" value="C25796"/>
+      <property name="LCSC" value="C23206"/>
+      <property name="Price" value="0.0013"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensing - Copy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>63ffe9e5-0af6-436d-bf48-d1fc8a53dcd1</tstamps>
+    </comp>
+    <comp ref="R41">
+      <value>13k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2110252030_UNI-ROYAL-Uniroyal-Elec-0603WAF1302T5E_C22797.pdf</datasheet>
+      <fields>
+        <field name="Alt_LCSC">C17455</field>
+        <field name="LCSC">C22797</field>
+        <field name="Price">0.0013</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Alt_LCSC" value="C17455"/>
+      <property name="LCSC" value="C22797"/>
+      <property name="Price" value="0.0013"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensing - Copy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12976ac1-311e-4b65-8ebc-06091e04731b</tstamps>
+    </comp>
+    <comp ref="R42">
+      <value>680k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0603WAF6803T5E_C25822.pdf</datasheet>
+      <fields>
+        <field name="Alt_LCSC">C17797</field>
+        <field name="LCSC">C25822</field>
+        <field name="Price">0.0013</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Alt_LCSC" value="C17797"/>
+      <property name="LCSC" value="C25822"/>
+      <property name="Price" value="0.0013"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensing - Copy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58e4e7fd-1922-47ff-a1db-c80e29af5df2</tstamps>
+    </comp>
+    <comp ref="R43">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2110251730_UNI-ROYAL-Uniroyal-Elec-0805W8F1001T5E_C17513.pdf</datasheet>
+      <fields>
+        <field name="Alt_LCSC">C25623</field>
+        <field name="LCSC">C17513</field>
+        <field name="Price">0.0023</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Alt_LCSC" value="C25623"/>
+      <property name="LCSC" value="C17513"/>
+      <property name="Price" value="0.0023"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensing - Copy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df6a3349-0a80-4ddc-9396-ab8490e468cb</tstamps>
+    </comp>
+    <comp ref="R44">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2110251730_UNI-ROYAL-Uniroyal-Elec-0805W8F1001T5E_C17513.pdf</datasheet>
+      <fields>
+        <field name="Alt_LCSC">C25623</field>
+        <field name="LCSC">C17513</field>
+        <field name="Price">0.0023</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Alt_LCSC" value="C25623"/>
+      <property name="LCSC" value="C17513"/>
+      <property name="Price" value="0.0023"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensing - Copy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b572bcc3-35cf-4494-8909-cb165088be03</tstamps>
+    </comp>
+    <comp ref="R45">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2110251730_UNI-ROYAL-Uniroyal-Elec-0805W8F1001T5E_C17513.pdf</datasheet>
+      <fields>
+        <field name="Alt_LCSC">C25623</field>
+        <field name="LCSC">C17513</field>
+        <field name="Price">0.0023</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Alt_LCSC" value="C25623"/>
+      <property name="LCSC" value="C17513"/>
+      <property name="Price" value="0.0023"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensing - Copy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2203789d-ac25-4878-8a7a-e86139c3c019</tstamps>
+    </comp>
+    <comp ref="R46">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2110251730_UNI-ROYAL-Uniroyal-Elec-0805W8F1001T5E_C17513.pdf</datasheet>
+      <fields>
+        <field name="Alt_LCSC">C25623</field>
+        <field name="LCSC">C17513</field>
+        <field name="Price">0.0023</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Alt_LCSC" value="C25623"/>
+      <property name="LCSC" value="C17513"/>
+      <property name="Price" value="0.0023"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensing - Copy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>01cd05d6-a7cd-45f1-af8a-e95cbe21352c</tstamps>
+    </comp>
+    <comp ref="SW31">
+      <value>SW_MEC_5E</value>
+      <footprint>Button_Switch_SMD:SW_SPST_SKQG_WithStem</footprint>
+      <datasheet>~https://datasheet.lcsc.com/lcsc/2002271431_XKB-Connectivity-TS-1187A-B-A-B_C318884.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C318884</field>
+        <field name="Price">0.0169</field>
+      </fields>
+      <libsource lib="Switch" part="SW_MEC_5E" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="LCSC" value="C318884"/>
+      <property name="Price" value="0.0169"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensing - Copy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4957f1c4-6e5f-446a-9505-e51f6655b346</tstamps>
+    </comp>
+    <comp ref="SW32">
+      <value>SW_MEC_5E</value>
+      <footprint>Button_Switch_SMD:SW_SPST_SKQG_WithStem</footprint>
+      <datasheet>~https://datasheet.lcsc.com/lcsc/2002271431_XKB-Connectivity-TS-1187A-B-A-B_C318884.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C318884</field>
+        <field name="Price">0.0169</field>
+      </fields>
+      <libsource lib="Switch" part="SW_MEC_5E" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="LCSC" value="C318884"/>
+      <property name="Price" value="0.0169"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensing - Copy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>13b5c201-506a-47f6-84db-68106a1d1072</tstamps>
+    </comp>
+    <comp ref="SW33">
+      <value>SW_MEC_5E</value>
+      <footprint>Button_Switch_SMD:SW_SPST_SKQG_WithStem</footprint>
+      <datasheet>~https://datasheet.lcsc.com/lcsc/2002271431_XKB-Connectivity-TS-1187A-B-A-B_C318884.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C318884</field>
+        <field name="Price">0.0169</field>
+      </fields>
+      <libsource lib="Switch" part="SW_MEC_5E" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="LCSC" value="C318884"/>
+      <property name="Price" value="0.0169"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensing - Copy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>404029cf-5066-4343-8f73-2d591dac49cf</tstamps>
+    </comp>
+    <comp ref="SW34">
+      <value>SW_MEC_5E</value>
+      <footprint>Button_Switch_SMD:SW_SPST_SKQG_WithStem</footprint>
+      <datasheet>~https://datasheet.lcsc.com/lcsc/2002271431_XKB-Connectivity-TS-1187A-B-A-B_C318884.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C318884</field>
+        <field name="Price">0.0169</field>
+      </fields>
+      <libsource lib="Switch" part="SW_MEC_5E" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="LCSC" value="C318884"/>
+      <property name="Price" value="0.0169"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensing - Copy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>90578fce-d3ee-40db-b304-24103a2888f9</tstamps>
+    </comp>
+    <comp ref="SW35">
+      <value>SW_MEC_5E</value>
+      <footprint>Button_Switch_SMD:SW_SPST_SKQG_WithStem</footprint>
+      <datasheet>~https://datasheet.lcsc.com/lcsc/2002271431_XKB-Connectivity-TS-1187A-B-A-B_C318884.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C318884</field>
+        <field name="Price">0.0169</field>
+      </fields>
+      <libsource lib="Switch" part="SW_MEC_5E" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="LCSC" value="C318884"/>
+      <property name="Price" value="0.0169"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensing - Copy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>591467ac-020b-4dad-a297-8a5934f4ce4a</tstamps>
+    </comp>
+    <comp ref="TP31">
+      <value>TestPoint</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensing - Copy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>979a52d9-0c48-4c7a-8593-95d1f5fa1b7d</tstamps>
+    </comp>
+    <comp ref="TP32">
+      <value>TestPoint</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensing - Copy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0569e29d-a2bf-4795-b657-a2cf997bbf88</tstamps>
+    </comp>
+    <comp ref="TP33">
+      <value>TestPoint</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensing - Copy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19027314-cf59-41b9-8ef3-002c52ad9949</tstamps>
+    </comp>
+    <comp ref="U31">
+      <value>COS724</value>
+      <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2106070234_COSINE-COS724TR_C2685541.pdf</datasheet>
+      <fields>
+        <field name="Alt_LCSC">C125823</field>
+        <field name="LCSC">C2685541</field>
+        <field name="Price">0.3387</field>
+      </fields>
+      <libsource lib="Device" part="Opamp_Quad" description="Quad operational amplifier"/>
+      <property name="Alt_LCSC" value="C125823"/>
+      <property name="LCSC" value="C2685541"/>
+      <property name="Price" value="0.3387"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensing - Copy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>70cd21ac-a457-4d26-8802-dfc1c2ee9f89 58bc6fa9-1d31-4495-9983-ff1faecd8297 7e8e2dc5-8417-49ed-a6f8-06d2e4fcb2de e9bfcd18-2d56-438e-a9e3-4f06568c96f4 284921ee-66c0-4f3a-9711-88026f5ba9fd</tstamps>
+    </comp>
+    <comp ref="U32">
+      <value>PIR Sensor</value>
+      <footprint>Package_TO_SOT_THT:TO-5-3_Window</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1806081326_Senba-Sensing-Tech-D204B_C98110.pdf</datasheet>
+      <fields>
+        <field name="Alt_LCSC">C139580</field>
+        <field name="LCSC">C98110</field>
+        <field name="Price">1.0152</field>
+      </fields>
+      <libsource lib="Sensor_Current" part="A1367xKTTN-10" description="Programmable Linear Hall Effect Sensor, +6.4 to +14mV/G, SIP-4"/>
+      <property name="Alt_LCSC" value="C139580"/>
+      <property name="LCSC" value="C98110"/>
+      <property name="Price" value="1.0152"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensing - Copy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bd9971c7-421a-4318-8d59-c82dfeb65b2c</tstamps>
+    </comp>
+    <comp ref="U33">
+      <value>74LS00</value>
+      <footprint>Package_TO_SOT_SMD:SOT-353_SC-70-5</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811151430_Nexperia-74HC1G00GV-125_C282334.pdf</datasheet>
+      <fields>
+        <field name="Alt_LCSC">C150244</field>
+        <field name="LCSC">C282334</field>
+        <field name="Price">0.2809</field>
+      </fields>
+      <libsource lib="74xx" part="74LS00" description="quad 2-input NAND gate"/>
+      <property name="Alt_LCSC" value="C150244"/>
+      <property name="LCSC" value="C282334"/>
+      <property name="Price" value="0.2809"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensing - Copy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>663bbef1-fd08-4c8a-a945-7054cdc2f2c9</tstamps>
+    </comp>
+    <comp ref="U34">
+      <value>VEML6040</value>
+      <footprint>OptoDevice:AMS_TSL2550_SMD</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811101814_Vishay-Intertech-VEML6040A3OG_C78465.pdf</datasheet>
+      <fields>
+        <field name="Alt_LCSC">C2688732</field>
+        <field name="LCSC">C78465</field>
+        <field name="Price">2.5708</field>
+      </fields>
+      <libsource lib="Sensor_Optical" part="APDS-9306-065" description="Ambient Light Sensor, I2C interface, 1.7-3.6V, DFN-6"/>
+      <property name="Alt_LCSC" value="C2688732"/>
+      <property name="LCSC" value="C78465"/>
+      <property name="Price" value="2.5708"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensing - Copy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b14ff07-810d-4c4d-acd2-e6cf70c3ec25</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xx" part="74LS00">
+      <description>quad 2-input NAND gate</description>
+      <docs>http://www.ti.com/lit/gpn/sn74ls00</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SO14*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS00</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/sn74ls00</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="output"/>
+        <pin num="4" name="" type="input"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="" type="output"/>
+        <pin num="9" name="" type="input"/>
+        <pin num="10" name="" type="input"/>
+        <pin num="11" name="" type="output"/>
+        <pin num="12" name="" type="input"/>
+        <pin num="13" name="" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Buzzer">
+      <description>Buzzer, polarized</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Buzzer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">BZ</field>
+        <field name="Value">Buzzer</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-" type="passive"/>
+        <pin num="2" name="+" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Opamp_Quad">
+      <description>Quad operational amplifier</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SOIC*3.9x8.7mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+        <fp>SSOP*5.3x6.2mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Opamp_Quad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V+" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="" type="output"/>
+        <pin num="8" name="" type="output"/>
+        <pin num="9" name="-" type="input"/>
+        <pin num="10" name="+" type="input"/>
+        <pin num="11" name="V-" type="power_in"/>
+        <pin num="12" name="+" type="input"/>
+        <pin num="13" name="-" type="input"/>
+        <pin num="14" name="" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NPN_BCE">
+      <description>NPN transistor, base/collector/emitter</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_BCE</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Current" part="A1367xKTTN-10">
+      <description>Programmable Linear Hall Effect Sensor, +6.4 to +14mV/G, SIP-4</description>
+      <docs>http://www.allegromicro.com/~/media/Files/Datasheets/A1367-Datasheet.ashx?la=en</docs>
+      <footprints>
+        <fp>Allegro*SIP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">A1367xKTTN-10</field>
+        <field name="Footprint">Sensor_Current:Allegro_SIP-4</field>
+        <field name="Datasheet">http://www.allegromicro.com/~/media/Files/Datasheets/A1367-Datasheet.ashx?la=en</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="VOUT" type="output"/>
+        <pin num="3" name="NC" type="no_connect"/>
+        <pin num="4" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Optical" part="APDS-9306-065">
+      <description>Ambient Light Sensor, I2C interface, 1.7-3.6V, DFN-6</description>
+      <docs>https://docs.broadcom.com/docs/AV02-4755EN</docs>
+      <footprints>
+        <fp>Broadcom*DFN*2x2mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">APDS-9306-065</field>
+        <field name="Footprint">OptoDevice:Broadcom_DFN-6_2x2mm_P0.65mm</field>
+        <field name="Datasheet">https://docs.broadcom.com/docs/AV02-4755EN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SCL" type="input"/>
+        <pin num="2" name="SDA" type="bidirectional"/>
+        <pin num="3" name="VDD" type="power_in"/>
+        <pin num="4" name="INT" type="open_collector"/>
+        <pin num="5" name="NC" type="no_connect"/>
+        <pin num="6" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_MEC_5E">
+      <description>MEC 5E single pole normally-open tactile switch</description>
+      <docs>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=1371</docs>
+      <footprints>
+        <fp>SW*MEC*5G*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_MEC_5E</field>
+        <field name="Datasheet">http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=1371</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="K" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="2N7002">
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N7002</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pspice" part="CAP">
+      <description>Capacitor symbol for simulation only</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAP</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pspice" part="DIODE">
+      <description>Diode symbol for simulation only. Pin order incompatible with official kicad footprints</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="input"/>
+        <pin num="2" name="A" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xx">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/74xx.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Sensor_Current">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Sensor_Current.kicad_sym</uri>
+    </library>
+    <library logical="Sensor_Optical">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Sensor_Optical.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
+    </library>
+    <library logical="pspice">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/pspice.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="R36" pin="1" pintype="passive"/>
+      <node ref="SW31" pin="4" pinfunction="A" pintype="passive"/>
+      <node ref="SW32" pin="4" pinfunction="A" pintype="passive"/>
+      <node ref="SW34" pin="4" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="C32" pin="2" pintype="passive"/>
+      <node ref="C34" pin="1" pintype="passive"/>
+      <node ref="C35" pin="1" pintype="passive"/>
+      <node ref="C36" pin="2" pintype="passive"/>
+      <node ref="C38" pin="2" pintype="passive"/>
+      <node ref="C39" pin="2" pintype="passive"/>
+      <node ref="C40" pin="1" pintype="passive"/>
+      <node ref="D32" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D33" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D34" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q31" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q32" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R39" pin="2" pintype="passive"/>
+      <node ref="R40" pin="2" pintype="passive"/>
+      <node ref="SW33" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW35" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U31" pin="11" pinfunction="V-" pintype="power_in"/>
+      <node ref="U32" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U34" pin="6" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="3" name="Net-(BZ31-Pad1)">
+      <node ref="BZ31" pin="1" pinfunction="-" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(BZ31-Pad2)">
+      <node ref="BZ31" pin="2" pinfunction="+" pintype="passive"/>
+      <node ref="SW33" pin="3" pinfunction="K" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(C31-Pad2)">
+      <node ref="C31" pin="2" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(C32-Pad1)">
+      <node ref="C32" pin="1" pintype="passive"/>
+      <node ref="R37" pin="2" pintype="passive"/>
+      <node ref="R38" pin="1" pintype="passive"/>
+      <node ref="U31" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="7" name="Net-(C33-Pad1)">
+      <node ref="C33" pin="1" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+      <node ref="U31" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="8" name="Net-(C34-Pad2)">
+      <node ref="C34" pin="2" pintype="passive"/>
+      <node ref="R38" pin="2" pintype="passive"/>
+      <node ref="R39" pin="1" pintype="passive"/>
+      <node ref="U31" pin="13" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="9" name="Net-(C35-Pad2)">
+      <node ref="C35" pin="2" pintype="passive"/>
+      <node ref="R41" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(C36-Pad1)">
+      <node ref="C36" pin="1" pintype="passive"/>
+      <node ref="R40" pin="1" pintype="passive"/>
+      <node ref="U31" pin="3" pinfunction="+" pintype="input"/>
+      <node ref="U32" pin="2" pinfunction="VOUT" pintype="output"/>
+    </net>
+    <net code="11" name="Net-(C37-Pad1)">
+      <node ref="C37" pin="1" pintype="passive"/>
+      <node ref="D31" pin="2" pinfunction="A" pintype="input"/>
+      <node ref="R42" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(C38-Pad1)">
+      <node ref="C38" pin="1" pintype="passive"/>
+      <node ref="C39" pin="1" pintype="passive"/>
+      <node ref="SW31" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="U31" pin="4" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="13" name="Net-(C40-Pad2)">
+      <node ref="C40" pin="2" pintype="passive"/>
+      <node ref="SW34" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="U34" pin="3" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="14" name="Net-(D32-Pad2)">
+      <node ref="D32" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R44" pin="2" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(D33-Pad2)">
+      <node ref="D33" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R45" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(D34-Pad2)">
+      <node ref="D34" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R46" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(Q31-Pad1)">
+      <node ref="Q31" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R34" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(Q31-Pad2)">
+      <node ref="Q31" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="SW33" pin="4" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(Q32-Pad3)">
+      <node ref="Q32" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="SW35" pin="4" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(R36-Pad2)">
+      <node ref="R36" pin="2" pintype="passive"/>
+      <node ref="R37" pin="1" pintype="passive"/>
+      <node ref="U31" pin="10" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="21" name="Net-(R41-Pad2)">
+      <node ref="R41" pin="2" pintype="passive"/>
+      <node ref="U31" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="22" name="Net-(R43-Pad2)">
+      <node ref="R43" pin="2" pintype="passive"/>
+      <node ref="SW35" pin="3" pinfunction="K" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(R44-Pad1)">
+      <node ref="R44" pin="1" pintype="passive"/>
+      <node ref="SW31" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(R45-Pad1)">
+      <node ref="R45" pin="1" pintype="passive"/>
+      <node ref="SW32" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(R46-Pad1)">
+      <node ref="R46" pin="1" pintype="passive"/>
+      <node ref="SW34" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(SW32-Pad3)">
+      <node ref="SW32" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="U32" pin="1" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="27" name="Net-(U31-Pad8)">
+      <node ref="U31" pin="8" pintype="output"/>
+      <node ref="U33" pin="1" pintype="input"/>
+    </net>
+    <net code="28" name="Net-(U31-Pad14)">
+      <node ref="U31" pin="14" pintype="output"/>
+      <node ref="U33" pin="2" pintype="input"/>
+    </net>
+    <net code="29" name="PA5">
+      <node ref="Q32" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="30" name="PA6">
+      <node ref="U33" pin="3" pintype="output"/>
+    </net>
+    <net code="31" name="PA7">
+      <node ref="R34" pin="1" pintype="passive"/>
+    </net>
+    <net code="32" name="PC0">
+      <node ref="R35" pin="2" pintype="passive"/>
+      <node ref="R43" pin="1" pintype="passive"/>
+    </net>
+    <net code="33" name="PF6">
+      <node ref="U34" pin="1" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="34" name="PF7">
+      <node ref="U34" pin="2" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="VBattery-LIon">
+      <node ref="R35" pin="1" pintype="passive"/>
+    </net>
+    <net code="36" name="Vout1">
+      <node ref="C31" pin="1" pintype="passive"/>
+      <node ref="C37" pin="2" pintype="passive"/>
+      <node ref="D31" pin="1" pinfunction="K" pintype="input"/>
+      <node ref="R42" pin="2" pintype="passive"/>
+      <node ref="TP32" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U31" pin="1" pintype="output"/>
+    </net>
+    <net code="37" name="Vout2">
+      <node ref="C33" pin="2" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="TP31" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U31" pin="12" pinfunction="+" pintype="input"/>
+      <node ref="U31" pin="7" pintype="output"/>
+      <node ref="U31" pin="9" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="38" name="unconnected-(SW31-Pad2)">
+      <node ref="SW31" pin="2" pinfunction="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(SW32-Pad2)">
+      <node ref="SW32" pin="2" pinfunction="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(SW33-Pad2)">
+      <node ref="SW33" pin="2" pinfunction="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(SW34-Pad2)">
+      <node ref="SW34" pin="2" pinfunction="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(SW35-Pad2)">
+      <node ref="SW35" pin="2" pinfunction="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(TP33-Pad1)">
+      <node ref="TP33" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="44" name="unconnected-(U32-Pad3)">
+      <node ref="U32" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U34-Pad4)">
+      <node ref="U34" pin="4" pinfunction="INT" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U34-Pad5)">
+      <node ref="U34" pin="5" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>

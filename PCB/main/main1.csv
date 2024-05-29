@@ -1,0 +1,101 @@
+Source:,C:\Users\ethan\OneDrive - University of Cape Town\2022\2022F\EEE3088F\Project\envirosensing-hat\PCB\main\main.kicad_sch,,,,,,,,,
+,,,,,,,,,,
+Date:,18/03/2022 08:45,,,,,,,,,
+,,,,,,,,,,
+Tool:,Eeschema (6.0.2),,,,,,,,,
+,,,,,,,,,,
+Generator:,C:\Program Files\KiCad\6.0\bin/bom_csv_grouped_by_value_with_fp1.py,,,,,,,,,
+,,,,,,,,,,
+Component Count:,95,,,,,,,,,
+,,,,,,,,,,
+Ref,Qnty,Value,Cmp Name,Cmp Number,Backup Cmp Number,Footprint,Description,Price,,
+,,,,,,,,,,
+"BZ1, ",1,Buzzer,Buzzer,C128650,C91080,Buzzer_Beeper:Buzzer_Murata_PKMCS0909E,"Buzzer, polarized",0.3955,,0.3955
+,,,,,,,,,,0
+"C1, C9, ",2,10nF,CAP,C57112,C1710,Capacitor_SMD:C_0603_1608Metric,Capacitor symbol for simulation only,0.0028,,0.0056
+,,,,,,,,,,0
+"C2, C3, C4, C5, ",4,1u,C_Small,C15849,C1848,Capacitor_SMD:C_0603_1608Metric,"Unpolarized capacitor, small symbol",0.0057,,0.0228
+,,,,,,,,,,0
+"C6, C11, ",2,22uF,CAP,C59461,C1532,Capacitor_SMD:C_0603_1608Metric,Capacitor symbol for simulation only,0.0098,,0.0196
+,,,,,,,,,,0
+"C7, ",1,1uF,C_Small,C15849,C28323,Capacitor_SMD:C_0603_1608Metric,"Unpolarized capacitor, small symbol",0.0057,,0.0057
+,,,,,,,,,,0
+"C8, ",1,22nF,C_Small,C21122,C123507,Capacitor_SMD:C_0603_1608Metric,"Unpolarized capacitor, small symbol",0.0059,,0.0059
+,,,,,,,,,,0
+"C10, C14, ",2,47nF,CAP,C1622,C53134,Capacitor_SMD:C_0603_1608Metric,Capacitor symbol for simulation only,0.0048,,0.0096
+,,,,,,,,,,0
+"C12, ",1,3.3nF,CAP,C1613,C53175,Capacitor_SMD:C_0603_1608Metric,Capacitor symbol for simulation only,0.0067,,0.0067
+,,,,,,,,,,0
+"C13, C16, ",2,10uF,C_Small,C13585,C440198,Capacitor_SMD:C_0805_2012Metric,"Unpolarized capacitor, small symbol",0.0427,,0.0854
+,,,,,,,,,,0
+"C15, C17, C18, C19, C20, C21, C22, C23, C24, ",9,100nF,C_Small,C14663,C30926,Capacitor_SMD:C_0603_1608Metric,"Unpolarized capacitor, small symbol",0.0026,,0.0234
+,,,,,,,,,,0
+"C25, ",1,4.7uF,C_Small,C98192,C215908,Capacitor_SMD:C_0805_2012Metric,"Unpolarized capacitor, small symbol",0.0293,,0.0293
+,,,,,,,,,,0
+"D1, D4, D7, D8, D11, D12, D13, D14, ",8,LED,LED,C2296,C84256,Diode_SMD:D_0805_2012Metric,Light emitting diode,0.0088,,0.0704
+,,,,,,,,,,0
+"D2, D3, D5, D6, D9, ",5,1N5819,1N5819,C84620,C526214,Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal,"40V 1A Schottky Barrier Rectifier Diode, DO-41",0.02732,,0.1366
+,,,,,,,,,,0
+"D10, ",1,DIODE,DIODE,C14538,C14516,Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp,Diode symbol for simulation only. Pin order incompatible with official kicad footprints,0.0083,,0.0083
+,,,,,,,,,,0
+"J1, J4, ",2,Conn_01x33_Female,Conn_01x33_Female,,,Connector_PinHeader_2.54mm:PinHeader_1x33_P2.54mm_Vertical,"Generic connector, single row, 01x33, script generated (kicad-library-utils/schlib/autogen/connector/)",0,,0
+,,,,,,,,,,0
+"J2, J3, ",2,Conn_01x33_Female,Conn_01x33_Female,C1234 (example),C12345 (example),Connector_PinSocket_2.54mm:PinSocket_1x33_P2.54mm_Vertical,"Generic connector, single row, 01x33, script generated (kicad-library-utils/schlib/autogen/connector/)",0,,0
+,,,,,,,,,,0
+"J5, ",1,USB_B_Micro,USB_B_Micro,C132563,C136001,Connector_USB:USB_Micro-B_Molex-105133-0031,USB Micro Type B connector,0.2511,,0.2511
+,,,,,,,,,,0
+"JP1, JP2, JP3, JP4, JP5, JP6, JP7, JP8, ",8,Jumper_2_Bridged,Jumper_2_Bridged,C390678,C24980,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,"Jumper, 2-pole, closed/bridged",0.007,,0.056
+,,,,,,,,,,0
+"Q1, Q3, ",2,S8550,S8550,C105432,C8542,Package_TO_SOT_THT:TO-92_Inline,"0.7A Ic, 20V Vce, Low Voltage High Current PNP Transistor, TO-92",0.021,,0.042
+,,,,,,,,,,0
+"Q2, ",1,Q_PMOS_GDS,Q_PMOS_GDS,C127863,C130106,Package_TO_SOT_SMD:TO-252-2,"P-MOSFET transistor, gate/drain/source",0.2157,,0.2157
+,,,,,,,,,,0
+"Q4, ",1,NPN,Q_NPN_BCE,C305395,C118538,Package_TO_SOT_THT:TO-92,"NPN transistor, base/collector/emitter",0.0129,,0.0129
+,,,,,,,,,,0
+"Q5, ",1,2N7002,2N7002,C107290,C9114,Package_TO_SOT_THT:TO-92,"0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23",0.0427,,0.0427
+,,,,,,,,,,0
+"R1, R18, ",2,10K,R_Small,C25804,C23192,Resistor_SMD:R_0603_1608Metric,"Resistor, small symbol",0.0013,,0.0026
+,,,,,,,,,,0
+"R2, ",1,100K,R_Small,C17900,C25741,Resistor_SMD:R_1206_3216Metric,"Resistor, small symbol",0.004,,0.004
+,,,,,,,,,,0
+"R3, R4, R19, R21, ",4,4K7,R_Small,C23162,C17673,Resistor_SMD:R_0603_1608Metric,"Resistor, small symbol",0.0083,,0.0332
+,,,,,,,,,,0
+"R5, R8, ",2,13k,R_Small,C22797,C17455,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,"Resistor, small symbol",0.0013,,0.0026
+,,,,,,,,,,0
+"R6, ",1,56k,R_Small,C23206,C17756,Resistor_SMD:R_0603_1608Metric,"Resistor, small symbol",0.0013,,0.0013
+,,,,,,,,,,0
+"R7, R9, ",2,680k,R_Small,C25822,C17797,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,"Resistor, small symbol",0.0013,,0.0026
+,,,,,,,,,,0
+"R10, R13, ",2,220k,R_Small,C22961,C17556,Resistor_SMD:R_0603_1608Metric,"Resistor, small symbol",0.0014,,0.0028
+,,,,,,,,,,0
+"R11, R12, ",2,470k,R_Small,C17709,C17675,Resistor_SMD:R_0805_2012Metric,"Resistor, small symbol",0.0028,,0.0056
+,,,,,,,,,,0
+"R14, R15, ",2,1k,R_Small,C17513,C25623,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,"Resistor, small symbol",0.0023,,0.0046
+,,,,,,,,,,0
+"R16, R17, ",2,100k,R_Small,C17513,C25623,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,"Resistor, small symbol",0.0023,,0.0046
+,,,,,,,,,,0
+"R20, ",1,470,R_Small,C17710,C23179,Resistor_SMD:R_0805_2012Metric,"Resistor, small symbol",0.0025,,0.0025
+,,,,,,,,,,0
+"R22, R23, ",2,2K2,R_Small,C4190,C17520,Resistor_SMD:R_0603_1608Metric,"Resistor, small symbol",0.0013,,0.0026
+,,,,,,,,,,0
+"R24, R25, ",2,270,R_Small,C17710,C23179,Resistor_SMD:R_0805_2012Metric,"Resistor, small symbol",0.0025,,0.005
+,,,,,,,,,,0
+"TP1, TP2, TP3, TP4, ",4,TestPoint,TestPoint,C238127,C238124,TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded,test point,0.4123,,1.6492
+,,,,,,,,,,0
+"U1, ",1,LM7805_TO220,LM7805_TO220,C71107,C507145,Package_TO_SOT_THT:TO-220-3_Vertical,"Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220",0.3143,,0.3143
+,,,,,,,,,,0
+"U2, ",1,TLV70012_SOT23-5,TLV70012_SOT23-5,C69446,,Package_TO_SOT_SMD:SOT-23-5,"200mA Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23-5",1.838,,1.838
+,,,,,,,,,,0
+"U3, ",1,PIR Sensor,A1367xKTTN-10,C98110,C139580,Package_TO_SOT_THT:TO-5-3_Window,"Programmable Linear Hall Effect Sensor, +6.4 to +14mV/G, SIP-4",1.0152,,1.0152
+,,,,,,,,,,0
+"U4, ",1,COS724,Opamp_Quad,C2685541,C125823,Package_SO:TSSOP-14_4.4x5mm_P0.65mm,Quad operational amplifier,0.3387,,0.3387
+,,,,,,,,,,0
+"U5, ",1,74LS00,74LS00,C282334,C150244,Package_TO_SOT_SMD:SOT-353_SC-70-5,quad 2-input NAND gate,0.2809,,0.2809
+,,,,,,,,,,0
+"U6, ",1,VEML6040,APDS-9306-065,C78465,C2688732,OptoDevice:AMS_TSL2550_SMD,"Ambient Light Sensor, I2C interface, 1.7-3.6V, DFN-6",2.5708,,2.5708
+,,,,,,,,,,0
+"U7, ",1,AT24C256C-SSHL-T,AT24CS02-XHM,C6482,C12371,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,"I2C Serial EEPROM, 2Kb (256x8) with Unique Serial Number, TSSOP8",1.5556,,1.5556
+,,,,,,,,,,0
+"U8, ",1,FT232RL,FT232RL,C8690,,Package_SO:SSOP-28_5.3x10.2mm_P0.65mm,"USB to Serial Interface, SSOP-28",6.6312,,6.6312
+,,,,,,,,,,
+,,,,,,,,16.09592,,17.7131

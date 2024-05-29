@@ -1,0 +1,30 @@
+EEE3088F Envirosensing HAT PCB design group project for EEE3088F
+ 
+Design Team: 
+Ethan Morris MRRETH003
+Ethan Meknassi MKNETH002
+Moutloatsi Setlogelo STLMOU001
+
+
+Security: 
+Do not publicise any potential security issues. Rather alert an administrator of any findings and the location of any vulnerabilities. 
+
+Development: 
+Contributing to the development of the project includes helping with fixings bugs as well as adding new features. Before working on a 
+selected bug-fix, or feature, set up the GitLab Development Kit and fork this project. If your added features or bug-fix impacts the 
+users or admins, update the documentation. Open a merge request to merge your newly added features and mark it as a Work in Progress 
+to let other members know that you are not done. Don’t forget to add tests and changelog entry to be credited for your work. Alert a 
+reviewer or administrator to review your work.
+
+Documentation: 
+Contributing to the documentation of the project allows for the user to get more familiar with the contribution process. There is a 
+range of contributions that can be made to the documentation of the project, such as reforming the directory or rectifying any 
+typographical errors. There may already be a list of issues within the documentation compiled by other users of the project. The first
+place to look for any issues to fix would be that file. Pick an issue to work on. Alert an administrator in order to check that 
+another user is not already working on that problem. 
+
+How to Contribute:
+Create a branch off the main which contains a clone of the main branch. Any changes made must be made in the new branch. When changes
+are complete, create a new merge request. When creating the merge request, ensure the changes made have been explained in their 
+entirety and as accurately as possible. Alert an administrator that your merge request is ready to be processed. The preferred IDE or
+software in order make any contributions would be STM32Cube for any coding changes and KiCAD for any PCB-based changes.
